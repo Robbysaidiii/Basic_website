@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 15px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: darkgreen;
+}
+
+.video-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+video {
+  border: 1px solid black;
+  width: 100%;
+  max-width: 700px;
+}
